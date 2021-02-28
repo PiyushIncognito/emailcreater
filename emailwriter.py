@@ -34,9 +34,9 @@ class Employees:
 
 fname = str(input("Enter your first name : "))
 lname = str(input("Enter your last name : "))
-Rihan = Employees(fname, lname)
-print(Rihan.employee_info())
-print(Rihan.email_creater)
-Rihan.email_creater = "wasi.bagwan@codeharry.com"
-print(Rihan.email_creater)
+Piyush = Employees(fname, lname)
+print(Piyush.employee_info())
+print(Piyush.email_creater)
+Piyush.email_creater = "wasi.bagwan@codeharry.com"
+print(Piyush.email_creater)
 
